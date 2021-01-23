@@ -2,6 +2,7 @@ package com.revature.project.character;
 
 import com.revature.project.monster.Monster;
 
+//Inherit from Character. Morph to Warrior
 public class Warrior extends Character{
 	private String job= "Warrior";
 	private int health = 50;
@@ -26,7 +27,7 @@ public class Warrior extends Character{
 	}
 	// End Getter and Setter
 	
-	// Override
+	// Override Character Class method
 		public int attack(Monster m) {
 			System.out.println("The " + this.job + " attack."+ " The " + m.getType() +" loses "+ this.damage + " point");
 			return m.getHealth() - this.damage;

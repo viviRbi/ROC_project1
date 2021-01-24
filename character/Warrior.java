@@ -29,7 +29,7 @@ public class Warrior extends Character{
 	
 	// Override Character Class method
 		public int attack(Monster m) {
-			System.out.println("The " + this.job + " attack."+ " The " + m.getType() +" loses "+ this.damage + " point");
+			System.out.println("The " + this.job + " attack."+ " The " + m.getType() +" loses "+ this.damage + " points");
 			return m.getHealth() - this.damage;
 		}
 }

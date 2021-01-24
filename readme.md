@@ -18,8 +18,8 @@ And I'm the main Character
 I'm a Warrior I have 50 health points!
 ----------------
 The monster appeared. It has 334 points.
-The Mage attack. The Random Monter loses 200 point
-The Random Monter has 134 left!
+The Mage attack. The Random Monter loses 200 points
+The Random Monter has 134 points left!
 ----------------
 The Random Monter attacks. The Warrior loses 31 point
 The warrior has 19 healthpoint left

@@ -32,19 +32,19 @@ public class Monster {
 	}
 	
 	public void checkStatus() {
-		System.out.println("The " + this.getType() +" has "+ this.getHealth() + " left!");
+		System.out.println("The " + this.getType() +" has "+ this.getHealth() + " points left!");
 	}
 	
 	// Overloading
 	public int attack(Mage c) {
 		this.damage = (int) (5 + (Math.random() * 40));
-		System.out.println("The " + this.type + " attacks."+ " The " + c.getJob() +" loses "+ this.damage + " point");
+		System.out.println("The " + this.type + " attacks."+ " The " + c.getJob() +" loses "+ this.damage + " points");
 		return c.getHealth() - this.damage;
 	}
 	
 	public int attack(Warrior c) {
 		this.damage = (int) (5 + (Math.random() * 40));
-		System.out.println("The " + this.type + " attacks."+ " The " + c.getJob() +" loses "+ this.damage + " point");
+		System.out.println("The " + this.type + " attacks."+ " The " + c.getJob() +" loses "+ this.damage + " points");
 		return c.getHealth() - this.damage;
 	}
 	// End Overloading

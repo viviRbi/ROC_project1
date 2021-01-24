@@ -35,7 +35,7 @@ public class Monster {
 		System.out.println("The " + this.getType() +" has "+ this.getHealth() + " points left!");
 	}
 	
-	// Overloading
+	// Overloading / Polymorphism
 	public int attack(Mage c) {
 		this.damage = (int) (5 + (Math.random() * 40));
 		System.out.println("The " + this.type + " attacks."+ " The " + c.getJob() +" loses "+ this.damage + " points");

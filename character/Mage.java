@@ -27,7 +27,7 @@ public class Mage extends Character{
 	}
 	// End Getter and Setter
 	
-	// Override Character Class method
+	// Override Character Class method / Polymorphism
 	public int attack(Monster m) {
 		System.out.println("The " + this.job + " attack."+ " The " + m.getType() +" loses "+ this.damage + " points");
 		return m.getHealth() - this.damage;

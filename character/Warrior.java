@@ -2,7 +2,7 @@ package com.revature.project.character;
 
 import com.revature.project.monster.Monster;
 
-//Inherit from Character
+//This is a subclass of Character
 public class Warrior extends Character{
 	private String job= "Warrior";
 	private int health = 50;

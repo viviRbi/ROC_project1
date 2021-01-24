@@ -4,12 +4,12 @@
 In this project, I create 3 packages, Main package hold the GameStart class which run the entire program. Character package had a Character parent class and two subclass: Mage and Warrior 
 
 This project contains: 
-- Getters and Setters (all classes in Monster, Character Package)
-- Method Overloading: Monster class (attack method from line 39-49)
-- Constructor (in class Mage, Warrior, Monster)
-- Different methods (in every class)
-- Method overriding in the child class (attack method in Warrior, Mage class from line 31-34)
-- Inheritance (talk method from line 18-20, the fields from line 6-8)
+- Getters and Setters (appeared in all classes in Monster, Character Package)
+- Method Overloading (appeared in Monster class attack method from line 39-49)
+- Constructor (can be seen in Mage, Warrior, Monster class)
+- Different methods (can be seen in every class)
+- Method overriding in the child class (appeared in attack method in Warrior, Mage class from line 31-34)
+- Inheritance (can be seen in talk method from line 18-20, the fields from line 6-8)
 
 Result:
 ```

@@ -19,7 +19,7 @@ public class Character {
 		System.out.println("And I'm the main Character");
 	}
 	
-	// Override
+	// Will be Override
 	public int attack(Monster m) {
 		System.out.println("The " + this.job + " attack."+ " The " + m.getType() +" loses "+ this.damage + " point");
 		return m.getHealth() - this.damage;

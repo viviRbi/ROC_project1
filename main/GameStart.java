@@ -13,13 +13,16 @@ public class GameStart {
 		p1.talk();
 		
 		Warrior p2 = new Warrior();
+		
 		System.out.println("----------------");
+		
 		Monster m = new Monster();
 		m.appear();
 		
 		int mHealth = p1.attack(m);
 		m.setHealth(mHealth);
 		m.checkStatus();
+		
 		System.out.println("----------------");
 		
 		int healthLeft = m.attack(p2);

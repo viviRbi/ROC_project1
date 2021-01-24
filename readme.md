@@ -8,8 +8,8 @@ This project contains:
 - Method Overloading (appeared in Monster class attack method from line 39-49)
 - Constructor (can be seen in Mage, Warrior, Monster class)
 - Different methods (can be seen in every class)
-- Method overriding in the child class (appeared in attack method in Warrior, Mage class from line 31-34)
-- Inheritance (can be seen in talk method from line 18-20, the fields from line 6-8)
+- Method overriding in the child class (appeared in Attack method in Warrior, Mage class from line 31-34)
+- Inheritance (can be seen in Talk method from line 18-20, the fields from line 6-8)
 
 Result:
 ```
